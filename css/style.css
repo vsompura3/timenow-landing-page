@@ -577,6 +577,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 4px;
 }
 
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -648,6 +652,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pr-3{
   padding-right: 0.75rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .font-inter{
@@ -729,6 +741,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .placeholder\:text-slate::placeholder{
   --tw-text-opacity: 1;
   color: rgb(66 84 102 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .focus\:outline-none:focus{
