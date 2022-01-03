@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Pricing | TimeNow</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 class="text-5xl lg:text-9xl font-black text-bubble-green p-4">
+        Pricing
+      </h1>
+    </header>
+    <!-- Footer -->
+    <footer class="px-4 py-12 md:px-12 lg:px-24 lg:py-16">
+      <div class="mb-6">
+        <img src="./Assets/Logo.svg" alt="" />
+      </div>
+      <div class="grid gap-8 md:grid-cols-3 lg:grid-cols-4">
+        <div
+          class="
+            grid grid-cols-2
+            gap-4
+            md:col-span-full md:grid-cols-4
+            lg:col-span-2 lg:grid-cols-3
+          "
+        >
+          <div>
+            <h3 class="mb-2 text-black font-bold">Product</h3>
+            <ul class="space-y-1.5">
+              <li><a href="/">Homepage</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="#features">Features</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="mb-2 text-black font-bold">Help</h3>
+            <ul class="space-y-1.5">
+              <li><a href="#">Live Chat</a></li>
+              <li><a href="#">Send Email</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="mb-2 text-black font-bold">Company</h3>
+            <ul class="space-y-1.5">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <form
+          class="md:col-start-1 md:col-span-2 lg:col-start-3 lg:row-start-1"
+        >
+          <h3 class="mb-2 text-black font-black">Try TimeNow</h3>
+          <div
+            class="
+              border border-gray
+              rounded-[4px]
+              flex flex-col
+              justify-between
+              p-1
+              sm:flex-row
+            "
+          >
+            <label for="email" class="sr-only">Email Address</label>
+            <input
+              class="
+                px-4
+                py-4
+                text-md
+                sm:py-2
+                md:text-xl
+                placeholder:text-slate
+                flex-1
+                focus:outline-none
+              "
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <button
+              type="submit"
+              class="font-bold bg-midnight text-white p-3 rounded-[4px]"
+              href="#"
+            >
+              Start Scheduling
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
