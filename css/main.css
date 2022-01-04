@@ -3,3 +3,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Toggle Animation and Style */
+
+*:focus-visible {
+  outline-width: 2px;
+  outline-style: dashed;
+  outline-offset: 2px;
+}
+
+#price-toggle:focus-visible ~ .toggle-container {
+  outline: 2px solid #3a84f7;
+  outline-offset: 3px;
+}
+
+#price-toggle:checked ~ .toggle-container .toggle-bg {
+  background-color: #3a84f7;
+}
+
+#price-toggle:checked ~ .toggle-container .toggle-dot {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
