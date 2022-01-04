@@ -5,7 +5,8 @@
   "main": "postcss.config.js",
   "scripts": {
     "dev": "vite",
-    "build": "npx tailwindcss -i ./css/main.css -o ./css/style.css"
+    "build": "npx tailwindcss -i ./css/main.css -o ./css/style.css",
+    "start": "npx tailwindcss -i ./css/main.css -o ./css/style.css -w && dev"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.1",
